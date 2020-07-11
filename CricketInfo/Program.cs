@@ -6,7 +6,11 @@ namespace CricketInfo
     {
         static void Main(string[] args)
         {
-            Cricbuzz.GetLiveMatches().GetAwaiter().GetResult();
+            var matches=Cricbuzz.GetLiveMatches().GetAwaiter().GetResult();
+            if(matches.matches.Count>0)
+            {
+                var detail=Cricbuzz.GetMatchDetail(matches.matches[0].match_id).GetAwaiter().GetResult();
+            }
             Console.ReadKey();
         }
 
