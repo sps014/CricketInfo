@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace CricketInfo
 {
@@ -6,13 +7,22 @@ namespace CricketInfo
     {
         static void Main(string[] args)
         {
-            var matches=Cricbuzz.GetLiveMatches().GetAwaiter().GetResult();
-            if(matches.matches.Count>0)
+            var liveMatches=Cricbuzz.GetLiveMatches().GetAwaiter().GetResult();
+
+            foreach (var match in liveMatches.matches)
             {
-                var detail=Cricbuzz.GetMatchDetail(matches.matches[0].match_id).GetAwaiter().GetResult();
+                PrintMatch(match).Wait();
             }
+            
             Console.ReadKey();
         }
+
+        static async Task PrintMatch(Match match)
+        {
+            Console.WriteLine(match.header.status);
+            var detail = await Cricbuzz.GetMatchDetail(match.match_id);
+        }
+
 
     }
 }
