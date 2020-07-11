@@ -6,13 +6,9 @@ namespace CricketInfo
     {
         static void Main(string[] args)
         {
-            testc();
+            Cricbuzz.GetLiveMatches().GetAwaiter().GetResult();
             Console.ReadKey();
         }
-        static async void testc()
-        {
-            var result= await Cricbuzz.GetLiveMatches();
 
-        }
     }
 }
