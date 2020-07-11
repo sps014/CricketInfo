@@ -21,6 +21,10 @@ namespace CricketInfo
         {
             Console.WriteLine(match.header.status);
             var detail = await Cricbuzz.GetMatchDetail(match.match_id);
+            foreach (var item in detail.comm_lines)
+            {
+                Console.WriteLine(item.comm);
+            }
         }
 
 
