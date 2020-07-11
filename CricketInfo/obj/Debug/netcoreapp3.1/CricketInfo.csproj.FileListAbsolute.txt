@@ -1,0 +1,13 @@
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\bin\Debug\netcoreapp3.1\CricketInfo.exe
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\bin\Debug\netcoreapp3.1\CricketInfo.deps.json
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\bin\Debug\netcoreapp3.1\CricketInfo.runtimeconfig.json
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\bin\Debug\netcoreapp3.1\CricketInfo.runtimeconfig.dev.json
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\bin\Debug\netcoreapp3.1\CricketInfo.dll
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\bin\Debug\netcoreapp3.1\CricketInfo.pdb
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\obj\Debug\netcoreapp3.1\CricketInfo.csprojAssemblyReference.cache
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\obj\Debug\netcoreapp3.1\CricketInfo.AssemblyInfoInputs.cache
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\obj\Debug\netcoreapp3.1\CricketInfo.AssemblyInfo.cs
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\obj\Debug\netcoreapp3.1\CricketInfo.csproj.CoreCompileInputs.cache
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\obj\Debug\netcoreapp3.1\CricketInfo.dll
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\obj\Debug\netcoreapp3.1\CricketInfo.pdb
+C:\Users\shive\Desktop\Test\CricketInfo\CricketInfo\obj\Debug\netcoreapp3.1\CricketInfo.genruntimeconfig.cache
