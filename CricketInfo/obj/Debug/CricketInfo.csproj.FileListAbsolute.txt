@@ -1,7 +1,0 @@
-C:\Users\shive\source\repos\CricketInfo\CricketInfo\obj\Debug\CricketInfo.csprojAssemblyReference.cache
-C:\Users\shive\source\repos\CricketInfo\CricketInfo\obj\Debug\CricketInfo.csproj.CoreCompileInputs.cache
-C:\Users\shive\source\repos\CricketInfo\CricketInfo\bin\Debug\CricketInfo.exe.config
-C:\Users\shive\source\repos\CricketInfo\CricketInfo\bin\Debug\CricketInfo.exe
-C:\Users\shive\source\repos\CricketInfo\CricketInfo\bin\Debug\CricketInfo.pdb
-C:\Users\shive\source\repos\CricketInfo\CricketInfo\obj\Debug\CricketInfo.exe
-C:\Users\shive\source\repos\CricketInfo\CricketInfo\obj\Debug\CricketInfo.pdb
