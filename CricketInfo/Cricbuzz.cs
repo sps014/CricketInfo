@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace CricketInfo
 {
-    public  static class Cricbuzz
+    public static class Cricbuzz
     {
         static HttpClient client = new HttpClient();
 
         public const string LiveMatchesURL = "http://mapps.cricbuzz.com/cbzios/match/livematches";
-        public const string MatchDetailStartURL = "https://www.cricbuzz.com/match-api/";
-        public const string MatchDetailEndURL = "/commentary.json";
+        public const string MatchDetailStartURL = "http://mapps.cricbuzz.com/cbzios/match/";
+        public const string MatchDetailEndURL = "/commentary";
 
         public static async Task<LiveMatches> GetLiveMatches()
         {
@@ -21,13 +21,13 @@ namespace CricketInfo
             var jsonString = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<LiveMatches>(jsonString);
         }
-        public static async  Task<MatchDetail> GetMatchDetail(string match_id)
+        public static async Task<MatchDetail> GetMatchDetail(string match_id)
 
         {
             if (match_id == null)
                 return null;
 
-            var response = await client.GetAsync(MatchDetailStartURL+match_id+MatchDetailEndURL);
+            var response = await client.GetAsync(MatchDetailStartURL + match_id + MatchDetailEndURL);
             var jsonString = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<MatchDetail>(jsonString);
         }
